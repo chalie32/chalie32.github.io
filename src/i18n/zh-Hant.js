@@ -3,12 +3,12 @@ export default {
   meta: { htmlLang: "zh-Hant", title: "SongYu (Charlie) Wang · 亞利桑那州立大學資工系" },
   ui: {
     nav: { about: "關於我", projects: "專案", experience: "經歷", contact: "聯絡", menu: "選單", language: "語言" },
-    hero: { hi: (name) => `嗨，我是 ${name}。`, viewProjects: "看看我的專案", email: "寄信給我" },
+    hero: { hi: (name) => `嗨，我是 ${name}。`, viewProjects: "看看我的專案" },
     tiles: {
       gpa: "GPA", education: "學歷", status: "目前狀態", open: "正在找實習", focus: "軟體 · 嵌入式系統",
       connect: "聯繫我", pcbs: "自製電路板", pcbsSub: "從設計到實作", telemetry: "遙測", telemetrySub: "即時感測器通道",
       toolbox: "技能", leadership: "領導經歷", openSource: "開源", onGithub: "我的 GitHub",
-      contact: "聯絡", contactTitle: "一起做點什麼吧。", contactText: "我正在尋找軟體或嵌入式系統相關的實習機會。",
+      contact: "聯絡", contactTitle: "一起做點什麼吧。", contactCta: "在 LinkedIn 聯絡我 ↗", contactText: "我正在尋找軟體或嵌入式系統相關的實習機會，歡迎透過 LinkedIn 聯絡我。",
       details: "詳細內容",
     },
     labels: { rocket: "精選 · 硬體", gcs: "資料視覺化", adder: "底層 · C 語言", food: "iOS App", java: "團隊專案" },

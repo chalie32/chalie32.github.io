@@ -6,7 +6,6 @@ export const profile = {
   name: "SongYu (Charlie) Wang",
   shortName: "Charlie Wang",
   initials: "SW",
-  email: "charlie32017@gmail.com",
   linkedin: "https://www.linkedin.com/in/song-yu-wang-02ab94311",
   github: GH,
   gpa: "3.88",

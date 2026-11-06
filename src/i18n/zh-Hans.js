@@ -3,12 +3,12 @@ export default {
   meta: { htmlLang: "zh-Hans", title: "SongYu (Charlie) Wang · 亚利桑那州立大学计算机系" },
   ui: {
     nav: { about: "关于我", projects: "项目", experience: "经历", contact: "联系", menu: "菜单", language: "语言" },
-    hero: { hi: (name) => `你好，我是 ${name}。`, viewProjects: "查看我的项目", email: "给我发邮件" },
+    hero: { hi: (name) => `你好，我是 ${name}。`, viewProjects: "查看我的项目" },
     tiles: {
       gpa: "GPA", education: "教育背景", status: "当前状态", open: "正在找实习", focus: "软件 · 嵌入式系统",
       connect: "联系我", pcbs: "自制电路板", pcbsSub: "从设计到实现", telemetry: "遥测", telemetrySub: "实时传感器通道",
       toolbox: "技能", leadership: "领导经历", openSource: "开源", onGithub: "我的 GitHub",
-      contact: "联系", contactTitle: "一起做点什么吧。", contactText: "我正在寻找软件或嵌入式系统方向的实习机会。",
+      contact: "联系", contactTitle: "一起做点什么吧。", contactCta: "在 LinkedIn 联系我 ↗", contactText: "我正在寻找软件或嵌入式系统方向的实习机会，欢迎通过 LinkedIn 联系我。",
       details: "详细内容",
     },
     labels: { rocket: "精选 · 硬件", gcs: "数据可视化", adder: "底层 · C 语言", food: "iOS 应用", java: "团队项目" },

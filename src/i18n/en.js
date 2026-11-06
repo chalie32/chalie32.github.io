@@ -3,12 +3,12 @@ export default {
   meta: { htmlLang: "en", title: "SongYu (Charlie) Wang · CS @ ASU" },
   ui: {
     nav: { about: "About", projects: "Projects", experience: "Experience", contact: "Contact", menu: "Menu", language: "Language" },
-    hero: { hi: (name) => `Hi, I'm ${name}.`, viewProjects: "View projects", email: "Email me" },
+    hero: { hi: (name) => `Hi, I'm ${name}.`, viewProjects: "View projects" },
     tiles: {
       gpa: "GPA", education: "Education", status: "Status", open: "Open to internships", focus: "Software · Embedded systems",
       connect: "Connect", pcbs: "Custom PCBs", pcbsSub: "designed & built", telemetry: "Telemetry", telemetrySub: "live sensor channels",
       toolbox: "Toolbox", leadership: "Leadership", openSource: "Open source", onGithub: "On GitHub",
-      contact: "Contact", contactTitle: "Let's build something.", contactText: "I'm looking for software or embedded-systems internships.",
+      contact: "Contact", contactTitle: "Let's build something.", contactCta: "Message me on LinkedIn ↗", contactText: "I'm looking for software or embedded-systems internships. The best way to reach me is LinkedIn.",
       details: "Details",
     },
     labels: { rocket: "Featured · Hardware", gcs: "Data visualization", adder: "Low-level · C", food: "iOS app", java: "Team project" },

@@ -65,7 +65,7 @@ export default function Home({ navigate }) {
           <div className="actions">
             <a className="btn primary" href="#projects" onClick={(e) => go(e, "/#projects")}>{t.hero.viewProjects}</a>
             <a className="btn" href={profile.github} target="_blank" rel="noreferrer"><GitHubIcon /> GitHub</a>
-            <a className="btn" href={`mailto:${profile.email}`}>{t.hero.email}</a>
+            <a className="btn" href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </section>
 
@@ -189,8 +189,7 @@ export default function Home({ navigate }) {
           <h2>{T.contactTitle}</h2>
           <p>{T.contactText}</p>
           <div className="actions">
-            <a className="btn light" href={`mailto:${profile.email}`}>{profile.email}</a>
-            <a className="btn outline-light" href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a className="btn light" href={profile.linkedin} target="_blank" rel="noreferrer">{T.contactCta}</a>
             <a className="btn outline-light" href={profile.github} target="_blank" rel="noreferrer"><GitHubIcon /> GitHub ↗</a>
           </div>
         </section>
